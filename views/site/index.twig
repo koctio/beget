@@ -1,3 +1,186 @@
-ккукукукукукукук
+{% extends 'layouts/main.twig' %}
+
+{% block head %}
+    {{ parent() }}
+{% endblock %}
+
+{% block nav %}
+    {{ parent() }}
+{% endblock %}
+
+{% block header %}
+    {{ parent() }}
+{% endblock %}
+
+{% block content %}
+
+    <section class="elixir" id="elixir">
+
+        <div class="container">
+            <div class="home-neitral home-neitral1"></div>
+            <h1 class="elixir-main__title" data-aos="fade-right">
+                Эликсир молодости
+                и здоровья
+            </h1>
+            <p class="elixir-main__subtitle" data-aos="fade-right">
+                Пищевой концентрат из виноградного сырья.
+            </p>
+            <div class="elixir-main__wrap" data-aos="fade-right">
+                <div class="elixir-main__line"></div>
+                <div class="elixir-main__text">
+                    Наш продукт изготовлен на инновационном оборудовании, сохранившем всю
+                    природную
+                    ценность
+                    крымского экологически чистого винограда и его частей (косточки, шкурки
+                    и гребня)
+                    сортов каберне-совиньон,
+                    саперави, мерло.
+                </div>
+            </div>
+
+            <div class="home-neitral home-neitral2"></div>
+        </div>
+        <div class="elixir-main-inner">
+            <div class="elixir-main-inner__left" data-aos="fade-right" data-aos-offset="200">
+
+            </div>
+            <div class="elixir-main-inner__right" id="pin1">
+                <div class="elixir-main-inner-wrapper" data-aos="fade-left">
+                    <div class="elixir-main-inner-wrapper__number">
+                        1
+                    </div>
+                    <div class="elixir-main-inner-wrapper__text">
+                        Стимулируется работа всех внутренних органов.
+                    </div>
+                </div>
+                <div class="elixir-main-inner-wrapper" data-aos="fade-left">
+                    <div class="elixir-main-inner-wrapper__number">
+                        2
+                    </div>
+                    <div class="elixir-main-inner-wrapper__text">
+                        Сосуды начинают правильно работать и выравнивается давление.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="bio" id="bio">
+        <div class="container">
+            <div class="home-neitral home-neitral3"></div>
+            <h2 class="bio-main-contain-title" data-aos="fade-right">
+                содержит биологически активные вещества:
+            </h2>
+            <ul class="bio-main-contain-list">
+                <li class="bio-main-contain-list__item" data-aos="fade-right">
+                    <b>водорастворимые и жирорастворимые полифенолы</b> (в виде сложных
+                    эфиров
+                    кумаровой,
+                    кофейной, уксусной кислот);
+                </li>
+                <li class="bio-main-contain-list__item" data-aos="fade-right">
+                    <b>ресверетрол</b>, пеларгонидин, цианидин, пеонидин, дельфинидин,
+                    мальвидин;
+                </li>
+                <li class="bio-main-contain-list__item" data-aos="fade-right">
+                    <b>димеры и триммеры</b> катехинов;
+                </li>
+                <li class="bio-main-contain-list__item" data-aos="fade-right">
+                    <b>органические кислоты</b>;
+                </li>
+                <li class="bio-main-contain-list__item" data-aos="fade-right">
+                    <b>катехины:</b> катехин, эпикатехин, танины, продукты полимеризации
+                    галловой и
+                    эллаговой
+                    кислот;
+                </li>
+                <li class="bio-main-contain-list__item" data-aos="fade-right">
+                    <b>флавоноиды:</b> кверцетин, мирицетин, кемпферол, гиперозид, рутин,
+                    витексин,
+                    астрагалин;
+                </li>
+                <li class="bio-main-contain-list__item" data-aos="fade-right">
+                    <b>фенолокислоты</b>, в своем большинстве содержащихся в виде эфиров.
+                </li>
+            </ul>
+            <div class="contain-info" data-aos="fade-left">
+                <div class="bio-main-contain-infobox infobox1">
+                    <div class="bio-main-contain-infobox__dot"></div>
+                </div>
+                <div class="contain-info-box" data-aos="zoom-out" data-aos-delay="700">
+                    <div class="contain-info-box__line"></div>
+                    <div class="contain-info-box__text">
+                        Содержит процианидины
+                        <b>(В1, В2, В3, В4, В5)</b>
+                    </div>
+                    <img src="http://elsaembd.beget.tech/wp-content/themes/Emiz/img/b.png" alt="B" class="contain-info-box__img"
+                        id="b">
+                    <img src="http://elsaembd.beget.tech/wp-content/themes/Emiz/img/b2.png" alt="B" class="contain-info-box__img"
+                        id="b2">
+                    <img src="http://elsaembd.beget.tech/wp-content/themes/Emiz/img/b3.png" alt="B" class="contain-info-box__img"
+                        id="b3">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="polifenols" id="polifenols">
+
+        <div class="container">
+            <h2 class="polifenols-main-polifenols-title" data-aos="fade-right">
+                польза этого продукта в веществах которые называют
+            </h2>
+            <p class="polifenols-main-polifenols-text" data-aos="fade-right">
+                полифенолы
+            </p>
+            <div class="polifenols-main__wrap" data-aos="fade-right">
+                <div class="polifenols-main__line"></div>
+                <div class="polifenols-main__text">
+                    Жирорастворимые полифенолы
+                    помогают почистить сосуды
+                    говловного мозга. Водорастворимые полифенолы очищают организм и сосуды
+                    от зашлакованности. Самое главное в полифенолах для кожи - это
+                    выработка и стимуляция
+                    естественного природного коллагена, который поддерживает упргугость и
+                    эластичность кожи. Полифенолы
+                    выравнивают тон лица, увлажняют и питают нашу кожу.
+                </div>
+            </div>
+            <div class="contain-info" data-aos="fade-left" data-aos-offset="400">
+                <div class="bio-main-contain-infobox infobox2">
+                    <div class="bio-main-contain-infobox__dot"></div>
+                </div>
+                <div class="contain-info-box" data-aos="zoom-out" data-aos-delay="1000">
+                    <div class="contain-info-box__line"></div>
+                    <div class="contain-info-box__text">
+                        Продукт имеет сертификат “Халяль”. Соответствует шариатским нормам
+                        “Халяль” и
+                        прошел сертификацию.
+                    </div>
+                    <img src="http://elsaembd.beget.tech/wp-content/themes/Emiz/img/halal.png" alt="halal"
+                        class="contain-info-box__img" id="halal">
+                    <img src="http://elsaembd.beget.tech/wp-content/themes/Emiz/img/halal2.png" alt="halal"
+                        class="contain-info-box__img" id="halal2">
+                    <img src="http://elsaembd.beget.tech/wp-content/themes/Emiz/img/halal3.png" alt="halal"
+                        class="contain-info-box__img" id="halal3">
+                </div>
+            </div>
+            <div class="home-neitral home-neitral4"></div>
+        </div>
+
+    </section>
+{% endblock %}
+
+{% block footer %}
+    {{ parent() }}
+{% endblock %}
+
+{% block script_js %}
+    {{ parent() }}
+{% endblock %}
+
+
 
 

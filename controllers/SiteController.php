@@ -62,7 +62,7 @@ class SiteController extends WebAuthController {
      * @return string
      */
     public function actionIndex(){
-
+        
         return $this->render('index.twig');
     }
 
