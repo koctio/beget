@@ -7,11 +7,30 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    //'layout'=>'main.twig',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
+         'view' => [
+            'class' => 'yii\web\View',
+            'renderers' => [
+                'twig' => [
+                    'class' => 'yii\twig\ViewRenderer',
+                    'cachePath' => '@runtime/Twig/cache',
+                    // Array of twig options:
+                    'options' => [
+                        'auto_reload' => true,
+                    ],
+                    'globals' => [
+                        'html' => ['class' => '\yii\helpers\Html'],
+                    ],
+                    'uses' => ['yii\bootstrap'],
+                ],
+                // ...
+            ],
+        ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'hdy87dedye!434bdueydededyeptor9403493aa445oreo#eiduuwiewi--',
@@ -43,14 +62,52 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
+            'enableStrictParsing' => false,
+            'suffix' => '/',
             'rules' => [
+                [
+                    'pattern' => 'news/<page:\d+>',
+                    'route' => 'news/index',
+                    'defaults' => ['page' => '1']
+                ],
+                [
+                    'pattern' => 'articles/<page:\d+>',
+                    'route' => 'articles/index',
+                    'defaults' => ['page' => '1']
+                ],
+                '<controller:[\w\-]+>/<id:[\d]+>'=>'<controller>/index',
+                '<controller:[\w]+>/<action:[\w]+>' => '<controller>/<action>',
+                '<controller:[\w\-]+>/<time:now|past>'=>'<controller>/index',
+                // не работает с добавленем параметра id в роутинг '<controller:\w+>/<action:\.+>/<id:\d+>' => '<controller>/<action>',
+                '<controller:[\w\-]+>/<action:[\w\-]+>/<id:[\d]+>'=>'<controller>/<action>',
+                '<controller:[\w\-]+>/<action:[\w\-]+>/<time:[\w\-]+>'=>'<controller>/<action>'
+                // '<controller:[\w\-]+>/<action:[\w\-]+>/<id:[\d]+>/<start_dt:[\w\s\W]+>/<tn_name:[\w\s\W]+>/<max_client_count:[\d]+>'=>'<controller>/<action>'
             ],
         ],
-        */
+
+        'i18n' => [
+            'translations' => [
+                'app*' => [
+                    'class' => 'yii\i18n\PhpMessageSource',
+                    'basePath' => '@app/messages',
+                    'fileMap' => [
+                        'app' => 'app.php',
+                        'app/auth' => 'auth.php',
+                        'app/about_us' => 'about_us.php',
+                        'app/base_err' => 'base_err.php',
+                        'app/math' => 'math.php'
+                    ]
+                ],
+                'yii' => [
+                    'class' => 'yii\i18n\PhpMessageSource',
+                    'sourceLanguage' => 'en-EN',
+                    'basePath' => '@app/messages'
+                ],
+            ],
+        ],
     ],
     'params' => $params,
 ];

@@ -10,8 +10,10 @@ use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
 
-class SiteController extends Controller
-{
+class SiteController extends WebAuthController {
+
+    public $layout = false;
+
     /**
      * {@inheritdoc}
      */
@@ -59,9 +61,9 @@ class SiteController extends Controller
      *
      * @return string
      */
-    public function actionIndex()
-    {
-        return $this->render('index');
+    public function actionIndex(){
+
+        return $this->render('index.twig');
     }
 
     /**
@@ -124,5 +126,19 @@ class SiteController extends Controller
     public function actionAbout()
     {
         return $this->render('about');
+    }
+    
+    /**
+     * Displays about page.
+     *
+     * @return string
+     */
+    public function actionTtt()
+    {
+        return $this->render('index.twig', ['username' => 'Alex']);
+    }
+
+    public function Fault(){
+         die( 'errr');
     }
 }

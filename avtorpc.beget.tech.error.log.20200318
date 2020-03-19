@@ -1,0 +1,1398 @@
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: An Error occurred while handling another error:
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: Error: Class 'app\\controllers\\Controller' not found in /home/a/avtorpc/avtorpc.beget.tech/controllers/WebAuthController.php:16
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: Stack trace:
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/BaseYii.php(293): include()
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: #1 [internal function]: yii\\BaseYii::autoload('app\\\\controllers...')
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/controllers/SiteController.php(13): spl_autoload_call('app\\\\controllers...')
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: #3 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/BaseYii.php(293): include('/home/a/avtorpc...')
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: #4 [internal function]: yii\\BaseYii::autoload('app\\\\controllers...')
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: #5 [internal function]: spl_autoload_call('app\\\\controllers...')
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: #6 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Module.php(637): class_exists('app\\\\controllers...')
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: #7 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Module.php(596): yii\\base\\Module->createControllerByID('site')
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: #8 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Module.php(522): yii\\base\\Module->createController('error')
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: #9 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/ErrorHandler.php(109): yii\\base\\Module->runAction('site/error')
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: #10 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\\web\\ErrorHandler->renderException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: #11 [internal function]: yii\\base\\ErrorHandler->handleException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: #12 {main}
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: Previous exception:
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: yii\\web\\NotFoundHttpException: Page not found. in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Request.php:287
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: Stack trace:
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Application.php(82): yii\\web\\Request->resolve()
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/public_html/index.php(12): yii\\base\\Application->run()
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: #3 {main}
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: $_SERVER = [
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_REDIRECT_UNIQUE_ID' => 'XnH@fgVlnL0AAAZMASUAAAAE',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_REDIRECT_STATUS' => '200',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_UNIQUE_ID' => 'XnH@fgVlnL0AAAZMASUAAAAE',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_HANDLER' => 'php-cgi',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_STATUS' => '200',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'UNIQUE_ID' => 'XnH@fgVlnL0AAAZMASUAAAAE',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'MMDB_INFO' => 'result found',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'GEOIP_REGION' => 'MOW',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'HTTP_HOST' => 'avtorpc.beget.tech',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'HTTP_X_SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'HTTP_X_FORWARDED_PROTO' => 'http',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'HTTP_X_REAL_IP' => '95.165.170.134',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'HTTP_COOKIE' => 'PHPSESSID=9a889c4ee3f944e6bea61c648032dea4; _csrf=20976c85a59988f7cd33d5c0d44bba24554e08666673eeda077b2bafbd5ef0fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pRD9axPbNht4u_hJoYNhE3Fp9mMrEw_I%22%3B%7D',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Unix) Server at avtorpc.beget.tech Port 80</address>
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: ',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix)',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'SERVER_NAME' => 'avtorpc.beget.tech',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'SERVER_PORT' => '80',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REQUEST_SCHEME' => 'http',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REMOTE_ADDR' => '95.165.170.134',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'DOCUMENT_ROOT' => '/home/a/avtorpc/avtorpc.beget.tech/public_html',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'CONTEXT_PREFIX' => '/php-cgi',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'CONTEXT_DOCUMENT_ROOT' => '/usr/local/php-cgi/7.3/bin',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'SERVER_ADMIN' => 'webmaster@avtorpc.beget.tech',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'SCRIPT_FILENAME' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REMOTE_PORT' => '39681',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REDIRECT_URL' => '/index.php',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'GATEWAY_INTERFACE' => 'CGI/1.1',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'SERVER_PROTOCOL' => 'HTTP/1.1',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REQUEST_METHOD' => 'GET',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'QUERY_STRING' => '',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REQUEST_URI' => '/admin',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'SCRIPT_NAME' => '/index.php',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'ORIG_SCRIPT_FILENAME' => '/usr/local/php-cgi/7.3/bin/php-cgi',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'ORIG_PATH_INFO' => '/index.php',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'ORIG_PATH_TRANSLATED' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'ORIG_SCRIPT_NAME' => '/php-cgi/php-cgi',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'PHP_SELF' => '/index.php',
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REQUEST_TIME_FLOAT' => 1584529022.10970211029052734375,
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'REQUEST_TIME' => 1584529022,
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'argv' => [],
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215:     'argc' => 0,
+[Wed Mar 18 13:57:02 2020] [error] [client 95.165.170.134:39681] AH01215: ]
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: An Error occurred while handling another error:
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: yii\\base\\UnknownPropertyException: Getting unknown property: app\\controllers\\SiteController::session in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Component.php:154
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: Stack trace:
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/controllers/trait_Catch_Err_Controller.php(20): yii\\base\\Component->__get('session')
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/controllers/WebAuthController.php(78): app\\controllers\\WebAuthController->err(Object(yii\\base\\UnknownPropertyException))
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Controller.php(155): app\\controllers\\WebAuthController->beforeAction(Object(yii\\web\\ErrorAction))
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: #3 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Module.php(528): yii\\base\\Controller->runAction('error', Array)
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: #4 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/ErrorHandler.php(109): yii\\base\\Module->runAction('site/error')
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: #5 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\\web\\ErrorHandler->renderException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: #6 [internal function]: yii\\base\\ErrorHandler->handleException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: #7 {main}
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: Previous exception:
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: yii\\web\\NotFoundHttpException: Page not found. in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Request.php:287
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: Stack trace:
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Application.php(82): yii\\web\\Request->resolve()
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/public_html/index.php(12): yii\\base\\Application->run()
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: #3 {main}
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: $_SERVER = [
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_REDIRECT_UNIQUE_ID' => 'XnIAwQVlnL0AAAUinXQAAAAC',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_UNIQUE_ID' => 'XnIAwQVlnL0AAAUinXQAAAAC',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_HANDLER' => 'php-cgi',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'UNIQUE_ID' => 'XnIAwQVlnL0AAAUinXQAAAAC',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'MMDB_INFO' => 'result found',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'HTTP_HOST' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'HTTP_X_SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'HTTP_X_FORWARDED_PROTO' => 'http',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'HTTP_X_REAL_IP' => '95.165.170.134',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'HTTP_CACHE_CONTROL' => 'max-age=0',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'HTTP_COOKIE' => 'PHPSESSID=9a889c4ee3f944e6bea61c648032dea4; _csrf=20976c85a59988f7cd33d5c0d44bba24554e08666673eeda077b2bafbd5ef0fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pRD9axPbNht4u_hJoYNhE3Fp9mMrEw_I%22%3B%7D',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Unix) Server at avtorpc.beget.tech Port 80</address>
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: ',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix)',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'SERVER_NAME' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'SERVER_PORT' => '80',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REQUEST_SCHEME' => 'http',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REMOTE_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'DOCUMENT_ROOT' => '/home/a/avtorpc/avtorpc.beget.tech/public_html',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'CONTEXT_PREFIX' => '/php-cgi',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'CONTEXT_DOCUMENT_ROOT' => '/usr/local/php-cgi/7.3/bin',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'SERVER_ADMIN' => 'webmaster@avtorpc.beget.tech',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'SCRIPT_FILENAME' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REMOTE_PORT' => '19319',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REDIRECT_URL' => '/index.php',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'GATEWAY_INTERFACE' => 'CGI/1.1',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'SERVER_PROTOCOL' => 'HTTP/1.1',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REQUEST_METHOD' => 'GET',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'QUERY_STRING' => '',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REQUEST_URI' => '/admin',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'SCRIPT_NAME' => '/index.php',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'ORIG_SCRIPT_FILENAME' => '/usr/local/php-cgi/7.3/bin/php-cgi',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'ORIG_PATH_INFO' => '/index.php',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'ORIG_PATH_TRANSLATED' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'ORIG_SCRIPT_NAME' => '/php-cgi/php-cgi',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'PHP_SELF' => '/index.php',
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REQUEST_TIME_FLOAT' => 1584529601.9777019023895263671875,
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'REQUEST_TIME' => 1584529601,
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'argv' => [],
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215:     'argc' => 0,
+[Wed Mar 18 14:06:42 2020] [error] [client 95.165.170.134:19319] AH01215: ]
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: An Error occurred while handling another error:
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: yii\\base\\UnknownPropertyException: Getting unknown property: app\\controllers\\SiteController::session in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Component.php:154
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: Stack trace:
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/controllers/trait_Catch_Err_Controller.php(20): yii\\base\\Component->__get('session')
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/controllers/WebAuthController.php(78): app\\controllers\\WebAuthController->err(Object(yii\\base\\UnknownPropertyException))
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Controller.php(155): app\\controllers\\WebAuthController->beforeAction(Object(yii\\web\\ErrorAction))
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: #3 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Module.php(528): yii\\base\\Controller->runAction('error', Array)
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: #4 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/ErrorHandler.php(109): yii\\base\\Module->runAction('site/error')
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: #5 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\\web\\ErrorHandler->renderException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: #6 [internal function]: yii\\base\\ErrorHandler->handleException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: #7 {main}
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: Previous exception:
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: yii\\web\\NotFoundHttpException: Page not found. in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Request.php:287
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: Stack trace:
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Application.php(82): yii\\web\\Request->resolve()
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/public_html/index.php(12): yii\\base\\Application->run()
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: #3 {main}
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215: $_SERVER = [
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_REDIRECT_UNIQUE_ID' => 'XnIErgVlnL0AAADGZYMAAAAF',
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_UNIQUE_ID' => 'XnIErgVlnL0AAADGZYMAAAAF',
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:23:26 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_HANDLER' => 'php-cgi',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'UNIQUE_ID' => 'XnIErgVlnL0AAADGZYMAAAAF',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'MMDB_INFO' => 'result found',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'HTTP_HOST' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'HTTP_X_SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'HTTP_X_FORWARDED_PROTO' => 'http',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'HTTP_X_REAL_IP' => '95.165.170.134',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'HTTP_CACHE_CONTROL' => 'max-age=0',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'HTTP_COOKIE' => 'PHPSESSID=9a889c4ee3f944e6bea61c648032dea4; _csrf=20976c85a59988f7cd33d5c0d44bba24554e08666673eeda077b2bafbd5ef0fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pRD9axPbNht4u_hJoYNhE3Fp9mMrEw_I%22%3B%7D',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Unix) Server at avtorpc.beget.tech Port 80</address>
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215: ',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix)',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'SERVER_NAME' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'SERVER_PORT' => '80',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REQUEST_SCHEME' => 'http',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REMOTE_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'DOCUMENT_ROOT' => '/home/a/avtorpc/avtorpc.beget.tech/public_html',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'CONTEXT_PREFIX' => '/php-cgi',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'CONTEXT_DOCUMENT_ROOT' => '/usr/local/php-cgi/7.3/bin',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'SERVER_ADMIN' => 'webmaster@avtorpc.beget.tech',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'SCRIPT_FILENAME' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REMOTE_PORT' => '61293',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REDIRECT_URL' => '/index.php',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'GATEWAY_INTERFACE' => 'CGI/1.1',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'SERVER_PROTOCOL' => 'HTTP/1.1',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REQUEST_METHOD' => 'GET',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'QUERY_STRING' => '',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REQUEST_URI' => '/admin',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'SCRIPT_NAME' => '/index.php',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'ORIG_SCRIPT_FILENAME' => '/usr/local/php-cgi/7.3/bin/php-cgi',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'ORIG_PATH_INFO' => '/index.php',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'ORIG_PATH_TRANSLATED' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'ORIG_SCRIPT_NAME' => '/php-cgi/php-cgi',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'PHP_SELF' => '/index.php',
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REQUEST_TIME_FLOAT' => 1584530606.930839061737060546875,
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'REQUEST_TIME' => 1584530606,
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'argv' => [],
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215:     'argc' => 0,
+[Wed Mar 18 14:23:27 2020] [error] [client 95.165.170.134:61293] AH01215: ]
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: An Error occurred while handling another error:
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: yii\\base\\UnknownPropertyException: Getting unknown property: app\\controllers\\SiteController::session in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Component.php:154
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: Stack trace:
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/controllers/trait_Catch_Err_Controller.php(20): yii\\base\\Component->__get('session')
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/controllers/WebAuthController.php(78): app\\controllers\\WebAuthController->err(Object(yii\\base\\UnknownPropertyException))
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Controller.php(155): app\\controllers\\WebAuthController->beforeAction(Object(yii\\web\\ErrorAction))
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: #3 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Module.php(528): yii\\base\\Controller->runAction('error', Array)
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: #4 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/ErrorHandler.php(109): yii\\base\\Module->runAction('site/error')
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: #5 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\\web\\ErrorHandler->renderException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: #6 [internal function]: yii\\base\\ErrorHandler->handleException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: #7 {main}
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: Previous exception:
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: yii\\web\\NotFoundHttpException: Page not found. in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Request.php:287
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: Stack trace:
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Application.php(82): yii\\web\\Request->resolve()
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/public_html/index.php(12): yii\\base\\Application->run()
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: #3 {main}
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: $_SERVER = [
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_REDIRECT_UNIQUE_ID' => 'XnIEtAVlnL0AAAEhG40AAAAA',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_UNIQUE_ID' => 'XnIEtAVlnL0AAAEhG40AAAAA',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_HANDLER' => 'php-cgi',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'UNIQUE_ID' => 'XnIEtAVlnL0AAAEhG40AAAAA',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'MMDB_INFO' => 'result found',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'HTTP_HOST' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'HTTP_X_SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'HTTP_X_FORWARDED_PROTO' => 'http',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'HTTP_X_REAL_IP' => '95.165.170.134',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'HTTP_CACHE_CONTROL' => 'max-age=0',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'HTTP_COOKIE' => 'PHPSESSID=9a889c4ee3f944e6bea61c648032dea4; _csrf=20976c85a59988f7cd33d5c0d44bba24554e08666673eeda077b2bafbd5ef0fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pRD9axPbNht4u_hJoYNhE3Fp9mMrEw_I%22%3B%7D',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Unix) Server at avtorpc.beget.tech Port 80</address>
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: ',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix)',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'SERVER_NAME' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'SERVER_PORT' => '80',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REQUEST_SCHEME' => 'http',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REMOTE_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'DOCUMENT_ROOT' => '/home/a/avtorpc/avtorpc.beget.tech/public_html',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'CONTEXT_PREFIX' => '/php-cgi',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'CONTEXT_DOCUMENT_ROOT' => '/usr/local/php-cgi/7.3/bin',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'SERVER_ADMIN' => 'webmaster@avtorpc.beget.tech',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'SCRIPT_FILENAME' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REMOTE_PORT' => '63757',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REDIRECT_URL' => '/index.php',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'GATEWAY_INTERFACE' => 'CGI/1.1',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'SERVER_PROTOCOL' => 'HTTP/1.1',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REQUEST_METHOD' => 'GET',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'QUERY_STRING' => '',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REQUEST_URI' => '/admin',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'SCRIPT_NAME' => '/index.php',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'ORIG_SCRIPT_FILENAME' => '/usr/local/php-cgi/7.3/bin/php-cgi',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'ORIG_PATH_INFO' => '/index.php',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'ORIG_PATH_TRANSLATED' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'ORIG_SCRIPT_NAME' => '/php-cgi/php-cgi',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'PHP_SELF' => '/index.php',
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REQUEST_TIME_FLOAT' => 1584530612.8294689655303955078125,
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'REQUEST_TIME' => 1584530612,
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'argv' => [],
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215:     'argc' => 0,
+[Wed Mar 18 14:23:32 2020] [error] [client 95.165.170.134:63757] AH01215: ]
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: An Error occurred while handling another error:
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: yii\\base\\UnknownPropertyException: Getting unknown property: app\\controllers\\SiteController::session in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Component.php:154
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: Stack trace:
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/controllers/trait_Catch_Err_Controller.php(20): yii\\base\\Component->__get('session')
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/controllers/WebAuthController.php(78): app\\controllers\\WebAuthController->err(Object(yii\\base\\UnknownPropertyException))
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Controller.php(155): app\\controllers\\WebAuthController->beforeAction(Object(yii\\web\\ErrorAction))
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: #3 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Module.php(528): yii\\base\\Controller->runAction('error', Array)
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: #4 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/ErrorHandler.php(109): yii\\base\\Module->runAction('site/error')
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: #5 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\\web\\ErrorHandler->renderException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: #6 [internal function]: yii\\base\\ErrorHandler->handleException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: #7 {main}
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: Previous exception:
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: yii\\web\\NotFoundHttpException: Page not found. in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Request.php:287
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: Stack trace:
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Application.php(82): yii\\web\\Request->resolve()
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/public_html/index.php(12): yii\\base\\Application->run()
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: #3 {main}
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: $_SERVER = [
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_REDIRECT_UNIQUE_ID' => 'XnIE3gVlnL0AAADGZYMAAAAF',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_REDIRECT_MMDB_ADDR' => '5.101.158.31',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_REDIRECT_GEOIP_ADDR' => '5.101.158.31',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_REDIRECT_GEOIP_LONGITUDE' => '37.60680',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_REDIRECT_GEOIP_LATITUDE' => '55.73860',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_UNIQUE_ID' => 'XnIE3gVlnL0AAADGZYMAAAAF',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_MMDB_ADDR' => '5.101.158.31',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_GEOIP_ADDR' => '5.101.158.31',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_GEOIP_LONGITUDE' => '37.60680',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_GEOIP_LATITUDE' => '55.73860',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_HANDLER' => 'php-cgi',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'UNIQUE_ID' => 'XnIE3gVlnL0AAADGZYMAAAAF',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'MMDB_ADDR' => '5.101.158.31',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'GEOIP_ADDR' => '5.101.158.31',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'MMDB_INFO' => 'result found',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'GEOIP_LONGITUDE' => '37.60680',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'GEOIP_LATITUDE' => '55.73860',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'HTTP_HOST' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'HTTP_X_SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'HTTP_X_FORWARDED_PROTO' => 'http',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'HTTP_X_REAL_IP' => '5.101.158.31',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'HTTP_ACCEPT_ENCODING' => 'gzip',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Unix) Server at avtorpc.beget.tech Port 80</address>
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: ',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix)',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'SERVER_NAME' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'SERVER_PORT' => '80',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REQUEST_SCHEME' => 'http',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REMOTE_ADDR' => '5.101.158.31',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'DOCUMENT_ROOT' => '/home/a/avtorpc/avtorpc.beget.tech/public_html',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'CONTEXT_PREFIX' => '/php-cgi',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'CONTEXT_DOCUMENT_ROOT' => '/usr/local/php-cgi/7.3/bin',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'SERVER_ADMIN' => 'webmaster@avtorpc.beget.tech',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'SCRIPT_FILENAME' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REMOTE_PORT' => '22747',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REDIRECT_URL' => '/index.php',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'GATEWAY_INTERFACE' => 'CGI/1.1',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'SERVER_PROTOCOL' => 'HTTP/1.1',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REQUEST_METHOD' => 'GET',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'QUERY_STRING' => '',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REQUEST_URI' => '/views/site/ttt.twig',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'SCRIPT_NAME' => '/index.php',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'ORIG_SCRIPT_FILENAME' => '/usr/local/php-cgi/7.3/bin/php-cgi',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'ORIG_PATH_INFO' => '/index.php',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'ORIG_PATH_TRANSLATED' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'ORIG_SCRIPT_NAME' => '/php-cgi/php-cgi',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'PHP_SELF' => '/index.php',
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REQUEST_TIME_FLOAT' => 1584530654.1831319332122802734375,
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'REQUEST_TIME' => 1584530654,
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'argv' => [],
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215:     'argc' => 0,
+[Wed Mar 18 14:24:14 2020] [error] [client 5.101.158.31:22747] AH01215: ]
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: An Error occurred while handling another error:
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: yii\\base\\UnknownPropertyException: Getting unknown property: app\\controllers\\SiteController::session in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Component.php:154
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: Stack trace:
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/controllers/trait_Catch_Err_Controller.php(20): yii\\base\\Component->__get('session')
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/controllers/WebAuthController.php(80): app\\controllers\\WebAuthController->err(Object(yii\\base\\UnknownPropertyException))
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Controller.php(155): app\\controllers\\WebAuthController->beforeAction(Object(yii\\web\\ErrorAction))
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: #3 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Module.php(528): yii\\base\\Controller->runAction('error', Array)
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: #4 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/ErrorHandler.php(109): yii\\base\\Module->runAction('site/error')
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: #5 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\\web\\ErrorHandler->renderException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: #6 [internal function]: yii\\base\\ErrorHandler->handleException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: #7 {main}
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: Previous exception:
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: yii\\web\\NotFoundHttpException: Page not found. in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Request.php:287
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: Stack trace:
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Application.php(82): yii\\web\\Request->resolve()
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/public_html/index.php(12): yii\\base\\Application->run()
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: #3 {main}
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: $_SERVER = [
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_REDIRECT_UNIQUE_ID' => 'XnIF9QVlnL0AAAEhG40AAAAA',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_UNIQUE_ID' => 'XnIF9QVlnL0AAAEhG40AAAAA',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_HANDLER' => 'php-cgi',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'UNIQUE_ID' => 'XnIF9QVlnL0AAAEhG40AAAAA',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'MMDB_INFO' => 'result found',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'HTTP_HOST' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'HTTP_X_SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'HTTP_X_FORWARDED_PROTO' => 'http',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'HTTP_X_REAL_IP' => '95.165.170.134',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'HTTP_CACHE_CONTROL' => 'max-age=0',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'HTTP_COOKIE' => 'PHPSESSID=9a889c4ee3f944e6bea61c648032dea4; _csrf=20976c85a59988f7cd33d5c0d44bba24554e08666673eeda077b2bafbd5ef0fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pRD9axPbNht4u_hJoYNhE3Fp9mMrEw_I%22%3B%7D',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Unix) Server at avtorpc.beget.tech Port 80</address>
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: ',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix)',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'SERVER_NAME' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'SERVER_PORT' => '80',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REQUEST_SCHEME' => 'http',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REMOTE_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'DOCUMENT_ROOT' => '/home/a/avtorpc/avtorpc.beget.tech/public_html',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'CONTEXT_PREFIX' => '/php-cgi',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'CONTEXT_DOCUMENT_ROOT' => '/usr/local/php-cgi/7.3/bin',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'SERVER_ADMIN' => 'webmaster@avtorpc.beget.tech',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'SCRIPT_FILENAME' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REMOTE_PORT' => '17135',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REDIRECT_URL' => '/index.php',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'GATEWAY_INTERFACE' => 'CGI/1.1',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'SERVER_PROTOCOL' => 'HTTP/1.1',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REQUEST_METHOD' => 'GET',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'QUERY_STRING' => '',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REQUEST_URI' => '/admin',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'SCRIPT_NAME' => '/index.php',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'ORIG_SCRIPT_FILENAME' => '/usr/local/php-cgi/7.3/bin/php-cgi',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'ORIG_PATH_INFO' => '/index.php',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'ORIG_PATH_TRANSLATED' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'ORIG_SCRIPT_NAME' => '/php-cgi/php-cgi',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'PHP_SELF' => '/index.php',
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REQUEST_TIME_FLOAT' => 1584530933.1101810932159423828125,
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'REQUEST_TIME' => 1584530933,
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'argv' => [],
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215:     'argc' => 0,
+[Wed Mar 18 14:28:53 2020] [error] [client 95.165.170.134:17135] AH01215: ]
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: An Error occurred while handling another error:
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: yii\\base\\UnknownPropertyException: Getting unknown property: app\\controllers\\SiteController::session in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Component.php:154
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: Stack trace:
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/controllers/trait_Catch_Err_Controller.php(20): yii\\base\\Component->__get('session')
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/controllers/WebAuthController.php(80): app\\controllers\\WebAuthController->err(Object(yii\\base\\UnknownPropertyException))
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Controller.php(155): app\\controllers\\WebAuthController->beforeAction(Object(yii\\web\\ErrorAction))
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: #3 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Module.php(528): yii\\base\\Controller->runAction('error', Array)
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: #4 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/ErrorHandler.php(109): yii\\base\\Module->runAction('site/error')
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: #5 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\\web\\ErrorHandler->renderException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: #6 [internal function]: yii\\base\\ErrorHandler->handleException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: #7 {main}
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: Previous exception:
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: yii\\web\\NotFoundHttpException: Page not found. in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Request.php:287
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: Stack trace:
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Application.php(82): yii\\web\\Request->resolve()
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/public_html/index.php(12): yii\\base\\Application->run()
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: #3 {main}
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: $_SERVER = [
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_REDIRECT_UNIQUE_ID' => 'XnIGJgVlnL0AAADGZYMAAAAF',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_UNIQUE_ID' => 'XnIGJgVlnL0AAADGZYMAAAAF',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_HANDLER' => 'php-cgi',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'UNIQUE_ID' => 'XnIGJgVlnL0AAADGZYMAAAAF',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'MMDB_INFO' => 'result found',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'HTTP_HOST' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'HTTP_X_SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'HTTP_X_FORWARDED_PROTO' => 'http',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'HTTP_X_REAL_IP' => '95.165.170.134',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'HTTP_CACHE_CONTROL' => 'max-age=0',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'HTTP_COOKIE' => 'PHPSESSID=9a889c4ee3f944e6bea61c648032dea4; _csrf=20976c85a59988f7cd33d5c0d44bba24554e08666673eeda077b2bafbd5ef0fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pRD9axPbNht4u_hJoYNhE3Fp9mMrEw_I%22%3B%7D',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Unix) Server at avtorpc.beget.tech Port 80</address>
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: ',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix)',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'SERVER_NAME' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'SERVER_PORT' => '80',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REQUEST_SCHEME' => 'http',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REMOTE_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'DOCUMENT_ROOT' => '/home/a/avtorpc/avtorpc.beget.tech/public_html',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'CONTEXT_PREFIX' => '/php-cgi',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'CONTEXT_DOCUMENT_ROOT' => '/usr/local/php-cgi/7.3/bin',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'SERVER_ADMIN' => 'webmaster@avtorpc.beget.tech',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'SCRIPT_FILENAME' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REMOTE_PORT' => '40883',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REDIRECT_URL' => '/index.php',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'GATEWAY_INTERFACE' => 'CGI/1.1',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'SERVER_PROTOCOL' => 'HTTP/1.1',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REQUEST_METHOD' => 'GET',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'QUERY_STRING' => '',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REQUEST_URI' => '/admin',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'SCRIPT_NAME' => '/index.php',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'ORIG_SCRIPT_FILENAME' => '/usr/local/php-cgi/7.3/bin/php-cgi',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'ORIG_PATH_INFO' => '/index.php',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'ORIG_PATH_TRANSLATED' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'ORIG_SCRIPT_NAME' => '/php-cgi/php-cgi',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'PHP_SELF' => '/index.php',
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REQUEST_TIME_FLOAT' => 1584530982.7452280521392822265625,
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'REQUEST_TIME' => 1584530982,
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'argv' => [],
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215:     'argc' => 0,
+[Wed Mar 18 14:29:42 2020] [error] [client 95.165.170.134:40883] AH01215: ]
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: An Error occurred while handling another error:
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: yii\\base\\UnknownPropertyException: Getting unknown property: app\\controllers\\SiteController::request in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Component.php:154
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: Stack trace:
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/controllers/trait_Catch_Err_Controller.php(33): yii\\base\\Component->__get('request')
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/controllers/WebAuthController.php(81): app\\controllers\\WebAuthController->err(Object(yii\\base\\UnknownMethodException))
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Controller.php(155): app\\controllers\\WebAuthController->beforeAction(Object(yii\\web\\ErrorAction))
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: #3 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Module.php(528): yii\\base\\Controller->runAction('error', Array)
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: #4 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/ErrorHandler.php(109): yii\\base\\Module->runAction('site/error')
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: #5 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\\web\\ErrorHandler->renderException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: #6 [internal function]: yii\\base\\ErrorHandler->handleException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: #7 {main}
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: Previous exception:
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: yii\\web\\NotFoundHttpException: Page not found. in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Request.php:287
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: Stack trace:
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Application.php(82): yii\\web\\Request->resolve()
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/public_html/index.php(12): yii\\base\\Application->run()
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: #3 {main}
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: $_SERVER = [
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_REDIRECT_UNIQUE_ID' => 'XnIGSwVlnL0AAAErrDkAAAAE',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_UNIQUE_ID' => 'XnIGSwVlnL0AAAErrDkAAAAE',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_HANDLER' => 'php-cgi',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'UNIQUE_ID' => 'XnIGSwVlnL0AAAErrDkAAAAE',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'MMDB_INFO' => 'result found',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'HTTP_HOST' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'HTTP_X_SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'HTTP_X_FORWARDED_PROTO' => 'http',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'HTTP_X_REAL_IP' => '95.165.170.134',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'HTTP_CACHE_CONTROL' => 'max-age=0',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'HTTP_COOKIE' => 'PHPSESSID=9a889c4ee3f944e6bea61c648032dea4; _csrf=20976c85a59988f7cd33d5c0d44bba24554e08666673eeda077b2bafbd5ef0fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pRD9axPbNht4u_hJoYNhE3Fp9mMrEw_I%22%3B%7D',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Unix) Server at avtorpc.beget.tech Port 80</address>
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: ',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix)',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'SERVER_NAME' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'SERVER_PORT' => '80',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REQUEST_SCHEME' => 'http',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REMOTE_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'DOCUMENT_ROOT' => '/home/a/avtorpc/avtorpc.beget.tech/public_html',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'CONTEXT_PREFIX' => '/php-cgi',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'CONTEXT_DOCUMENT_ROOT' => '/usr/local/php-cgi/7.3/bin',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'SERVER_ADMIN' => 'webmaster@avtorpc.beget.tech',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'SCRIPT_FILENAME' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REMOTE_PORT' => '58223',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REDIRECT_URL' => '/index.php',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'GATEWAY_INTERFACE' => 'CGI/1.1',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'SERVER_PROTOCOL' => 'HTTP/1.1',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REQUEST_METHOD' => 'GET',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'QUERY_STRING' => '',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REQUEST_URI' => '/admin',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'SCRIPT_NAME' => '/index.php',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'ORIG_SCRIPT_FILENAME' => '/usr/local/php-cgi/7.3/bin/php-cgi',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'ORIG_PATH_INFO' => '/index.php',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'ORIG_PATH_TRANSLATED' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'ORIG_SCRIPT_NAME' => '/php-cgi/php-cgi',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'PHP_SELF' => '/index.php',
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REQUEST_TIME_FLOAT' => 1584531019.7332150936126708984375,
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'REQUEST_TIME' => 1584531019,
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'argv' => [],
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215:     'argc' => 0,
+[Wed Mar 18 14:30:19 2020] [error] [client 95.165.170.134:58223] AH01215: ]
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: An Error occurred while handling another error:
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: yii\\base\\UnknownPropertyException: Getting unknown property: app\\controllers\\SiteController::request in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Component.php:154
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: Stack trace:
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/controllers/trait_Catch_Err_Controller.php(33): yii\\base\\Component->__get('request')
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/controllers/WebAuthController.php(81): app\\controllers\\WebAuthController->err(Object(yii\\base\\UnknownMethodException))
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Controller.php(155): app\\controllers\\WebAuthController->beforeAction(Object(yii\\web\\ErrorAction))
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: #3 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Module.php(528): yii\\base\\Controller->runAction('error', Array)
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: #4 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/ErrorHandler.php(109): yii\\base\\Module->runAction('site/error')
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: #5 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\\web\\ErrorHandler->renderException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: #6 [internal function]: yii\\base\\ErrorHandler->handleException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: #7 {main}
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: Previous exception:
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: yii\\web\\NotFoundHttpException: Page not found. in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Request.php:287
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: Stack trace:
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Application.php(82): yii\\web\\Request->resolve()
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/public_html/index.php(12): yii\\base\\Application->run()
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: #3 {main}
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: $_SERVER = [
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_REDIRECT_UNIQUE_ID' => 'XnIGmAVlnL0AAADGZYMAAAAF',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_UNIQUE_ID' => 'XnIGmAVlnL0AAADGZYMAAAAF',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_HANDLER' => 'php-cgi',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'UNIQUE_ID' => 'XnIGmAVlnL0AAADGZYMAAAAF',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'MMDB_INFO' => 'result found',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'HTTP_HOST' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'HTTP_X_SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'HTTP_X_FORWARDED_PROTO' => 'http',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'HTTP_X_REAL_IP' => '95.165.170.134',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'HTTP_CACHE_CONTROL' => 'max-age=0',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'HTTP_COOKIE' => 'PHPSESSID=9a889c4ee3f944e6bea61c648032dea4; _csrf=20976c85a59988f7cd33d5c0d44bba24554e08666673eeda077b2bafbd5ef0fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pRD9axPbNht4u_hJoYNhE3Fp9mMrEw_I%22%3B%7D',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Unix) Server at avtorpc.beget.tech Port 80</address>
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: ',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix)',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'SERVER_NAME' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'SERVER_PORT' => '80',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REQUEST_SCHEME' => 'http',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REMOTE_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'DOCUMENT_ROOT' => '/home/a/avtorpc/avtorpc.beget.tech/public_html',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'CONTEXT_PREFIX' => '/php-cgi',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'CONTEXT_DOCUMENT_ROOT' => '/usr/local/php-cgi/7.3/bin',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'SERVER_ADMIN' => 'webmaster@avtorpc.beget.tech',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'SCRIPT_FILENAME' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REMOTE_PORT' => '29487',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REDIRECT_URL' => '/index.php',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'GATEWAY_INTERFACE' => 'CGI/1.1',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'SERVER_PROTOCOL' => 'HTTP/1.1',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REQUEST_METHOD' => 'GET',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'QUERY_STRING' => '',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REQUEST_URI' => '/admin',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'SCRIPT_NAME' => '/index.php',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'ORIG_SCRIPT_FILENAME' => '/usr/local/php-cgi/7.3/bin/php-cgi',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'ORIG_PATH_INFO' => '/index.php',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'ORIG_PATH_TRANSLATED' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'ORIG_SCRIPT_NAME' => '/php-cgi/php-cgi',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'PHP_SELF' => '/index.php',
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REQUEST_TIME_FLOAT' => 1584531096.8057548999786376953125,
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'REQUEST_TIME' => 1584531096,
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'argv' => [],
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215:     'argc' => 0,
+[Wed Mar 18 14:31:36 2020] [error] [client 95.165.170.134:29487] AH01215: ]
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: An Error occurred while handling another error:
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: yii\\web\\HeadersAlreadySentException: Headers already sent in /home/a/avtorpc/avtorpc.beget.tech/controllers/WebAuthController.php on line 44. in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Response.php:366
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: Stack trace:
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Response.php(339): yii\\web\\Response->sendHeaders()
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\\web\\Response->send()
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\\web\\ErrorHandler->renderException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: #3 [internal function]: yii\\base\\ErrorHandler->handleException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: #4 {main}
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: Previous exception:
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: yii\\base\\InvalidRouteException: Unable to resolve the request: site/fault in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Controller.php:128
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: Stack trace:
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Module.php(528): yii\\base\\Controller->runAction('fault', Array)
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Application.php(103): yii\\base\\Module->runAction('site/fault', Array)
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: #3 /home/a/avtorpc/avtorpc.beget.tech/public_html/index.php(12): yii\\base\\Application->run()
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: #4 {main}
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: 
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: Next yii\\web\\NotFoundHttpException: Page not found. in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Application.php:115
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: Stack trace:
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/public_html/index.php(12): yii\\base\\Application->run()
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: #2 {main}
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: $_SERVER = [
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_REDIRECT_UNIQUE_ID' => 'XnIMxAVlnL0AAABIx4IAAAAD',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_UNIQUE_ID' => 'XnIMxAVlnL0AAABIx4IAAAAD',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_HANDLER' => 'php-cgi',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'UNIQUE_ID' => 'XnIMxAVlnL0AAABIx4IAAAAD',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'MMDB_INFO' => 'result found',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'HTTP_HOST' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'HTTP_X_SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'HTTP_X_FORWARDED_PROTO' => 'http',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'HTTP_X_REAL_IP' => '95.165.170.134',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'HTTP_CACHE_CONTROL' => 'max-age=0',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'HTTP_COOKIE' => '_csrf=20976c85a59988f7cd33d5c0d44bba24554e08666673eeda077b2bafbd5ef0fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pRD9axPbNht4u_hJoYNhE3Fp9mMrEw_I%22%3B%7D; PHPSESSID=5f3602ce0b8c3920d887503767c44149',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Unix) Server at avtorpc.beget.tech Port 80</address>
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: ',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix)',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'SERVER_NAME' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'SERVER_PORT' => '80',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REQUEST_SCHEME' => 'http',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REMOTE_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'DOCUMENT_ROOT' => '/home/a/avtorpc/avtorpc.beget.tech/public_html',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'CONTEXT_PREFIX' => '/php-cgi',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'CONTEXT_DOCUMENT_ROOT' => '/usr/local/php-cgi/7.3/bin',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'SERVER_ADMIN' => 'webmaster@avtorpc.beget.tech',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'SCRIPT_FILENAME' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REMOTE_PORT' => '51253',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REDIRECT_URL' => '/index.php',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'GATEWAY_INTERFACE' => 'CGI/1.1',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'SERVER_PROTOCOL' => 'HTTP/1.1',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REQUEST_METHOD' => 'GET',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'QUERY_STRING' => '',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REQUEST_URI' => '/site/fault/',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'SCRIPT_NAME' => '/index.php',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'ORIG_SCRIPT_FILENAME' => '/usr/local/php-cgi/7.3/bin/php-cgi',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'ORIG_PATH_INFO' => '/index.php',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'ORIG_PATH_TRANSLATED' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'ORIG_SCRIPT_NAME' => '/php-cgi/php-cgi',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'PHP_SELF' => '/index.php',
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REQUEST_TIME_FLOAT' => 1584532676.4769799709320068359375,
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'REQUEST_TIME' => 1584532676,
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'argv' => [],
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215:     'argc' => 0,
+[Wed Mar 18 14:57:56 2020] [error] [client 95.165.170.134:51253] AH01215: ]
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: An Error occurred while handling another error:
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: yii\\web\\HeadersAlreadySentException: Headers already sent in /home/a/avtorpc/avtorpc.beget.tech/controllers/WebAuthController.php on line 44. in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Response.php:366
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: Stack trace:
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Response.php(339): yii\\web\\Response->sendHeaders()
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\\web\\Response->send()
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\\web\\ErrorHandler->renderException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: #3 [internal function]: yii\\base\\ErrorHandler->handleException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: #4 {main}
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: Previous exception:
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: yii\\base\\InvalidRouteException: Unable to resolve the request: site/fault in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Controller.php:128
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: Stack trace:
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Module.php(528): yii\\base\\Controller->runAction('fault', Array)
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Application.php(103): yii\\base\\Module->runAction('site/fault', Array)
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: #3 /home/a/avtorpc/avtorpc.beget.tech/public_html/index.php(12): yii\\base\\Application->run()
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: #4 {main}
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: 
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: Next yii\\web\\NotFoundHttpException: Page not found. in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Application.php:115
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: Stack trace:
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/public_html/index.php(12): yii\\base\\Application->run()
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: #2 {main}
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: $_SERVER = [
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_REDIRECT_UNIQUE_ID' => 'XnIM5gVlnL0AAAF1UFYAAAAB',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_UNIQUE_ID' => 'XnIM5gVlnL0AAAF1UFYAAAAB',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_HANDLER' => 'php-cgi',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'UNIQUE_ID' => 'XnIM5gVlnL0AAAF1UFYAAAAB',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'MMDB_INFO' => 'result found',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'HTTP_HOST' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'HTTP_X_SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'HTTP_X_FORWARDED_PROTO' => 'http',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'HTTP_X_REAL_IP' => '95.165.170.134',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'HTTP_PRAGMA' => 'no-cache',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'HTTP_CACHE_CONTROL' => 'no-cache',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'HTTP_COOKIE' => '_csrf=20976c85a59988f7cd33d5c0d44bba24554e08666673eeda077b2bafbd5ef0fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pRD9axPbNht4u_hJoYNhE3Fp9mMrEw_I%22%3B%7D; PHPSESSID=5f3602ce0b8c3920d887503767c44149',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Unix) Server at avtorpc.beget.tech Port 80</address>
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: ',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix)',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'SERVER_NAME' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'SERVER_PORT' => '80',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REQUEST_SCHEME' => 'http',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REMOTE_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'DOCUMENT_ROOT' => '/home/a/avtorpc/avtorpc.beget.tech/public_html',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'CONTEXT_PREFIX' => '/php-cgi',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'CONTEXT_DOCUMENT_ROOT' => '/usr/local/php-cgi/7.3/bin',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'SERVER_ADMIN' => 'webmaster@avtorpc.beget.tech',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'SCRIPT_FILENAME' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REMOTE_PORT' => '5547',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REDIRECT_URL' => '/index.php',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'GATEWAY_INTERFACE' => 'CGI/1.1',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'SERVER_PROTOCOL' => 'HTTP/1.1',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REQUEST_METHOD' => 'GET',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'QUERY_STRING' => '',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REQUEST_URI' => '/site/fault/',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'SCRIPT_NAME' => '/index.php',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'ORIG_SCRIPT_FILENAME' => '/usr/local/php-cgi/7.3/bin/php-cgi',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'ORIG_PATH_INFO' => '/index.php',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'ORIG_PATH_TRANSLATED' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'ORIG_SCRIPT_NAME' => '/php-cgi/php-cgi',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'PHP_SELF' => '/index.php',
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REQUEST_TIME_FLOAT' => 1584532710.3043830394744873046875,
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'REQUEST_TIME' => 1584532710,
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'argv' => [],
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215:     'argc' => 0,
+[Wed Mar 18 14:58:30 2020] [error] [client 95.165.170.134:5547] AH01215: ]
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: An Error occurred while handling another error:
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: yii\\web\\HeadersAlreadySentException: Headers already sent in /home/a/avtorpc/avtorpc.beget.tech/controllers/WebAuthController.php on line 44. in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Response.php:366
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: Stack trace:
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Response.php(339): yii\\web\\Response->sendHeaders()
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\\web\\Response->send()
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\\web\\ErrorHandler->renderException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: #3 [internal function]: yii\\base\\ErrorHandler->handleException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: #4 {main}
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: Previous exception:
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: yii\\base\\InvalidRouteException: Unable to resolve the request: site/fault in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Controller.php:128
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: Stack trace:
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Module.php(528): yii\\base\\Controller->runAction('fault', Array)
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Application.php(103): yii\\base\\Module->runAction('site/fault', Array)
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: #3 /home/a/avtorpc/avtorpc.beget.tech/public_html/index.php(12): yii\\base\\Application->run()
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: #4 {main}
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: 
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: Next yii\\web\\NotFoundHttpException: Page not found. in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Application.php:115
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: Stack trace:
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/public_html/index.php(12): yii\\base\\Application->run()
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: #2 {main}
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: $_SERVER = [
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_REDIRECT_UNIQUE_ID' => 'XnINIAVlnL0AAABMerQAAAAG',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_UNIQUE_ID' => 'XnINIAVlnL0AAABMerQAAAAG',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_HANDLER' => 'php-cgi',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_STATUS' => '200',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'UNIQUE_ID' => 'XnINIAVlnL0AAABMerQAAAAG',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'MMDB_INFO' => 'result found',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'GEOIP_REGION' => 'MOW',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'HTTP_HOST' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'HTTP_X_SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'HTTP_X_FORWARDED_PROTO' => 'http',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'HTTP_X_REAL_IP' => '95.165.170.134',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'HTTP_CACHE_CONTROL' => 'max-age=0',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'HTTP_COOKIE' => '_csrf=20976c85a59988f7cd33d5c0d44bba24554e08666673eeda077b2bafbd5ef0fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pRD9axPbNht4u_hJoYNhE3Fp9mMrEw_I%22%3B%7D; PHPSESSID=5f3602ce0b8c3920d887503767c44149',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Unix) Server at avtorpc.beget.tech Port 80</address>
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: ',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix)',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'SERVER_NAME' => 'avtorpc.beget.tech',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'SERVER_PORT' => '80',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REQUEST_SCHEME' => 'http',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REMOTE_ADDR' => '95.165.170.134',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'DOCUMENT_ROOT' => '/home/a/avtorpc/avtorpc.beget.tech/public_html',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'CONTEXT_PREFIX' => '/php-cgi',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'CONTEXT_DOCUMENT_ROOT' => '/usr/local/php-cgi/7.3/bin',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'SERVER_ADMIN' => 'webmaster@avtorpc.beget.tech',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'SCRIPT_FILENAME' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REMOTE_PORT' => '26949',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REDIRECT_URL' => '/index.php',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'GATEWAY_INTERFACE' => 'CGI/1.1',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'SERVER_PROTOCOL' => 'HTTP/1.1',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REQUEST_METHOD' => 'GET',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'QUERY_STRING' => '',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REQUEST_URI' => '/site/fault/',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'SCRIPT_NAME' => '/index.php',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'ORIG_SCRIPT_FILENAME' => '/usr/local/php-cgi/7.3/bin/php-cgi',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'ORIG_PATH_INFO' => '/index.php',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'ORIG_PATH_TRANSLATED' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'ORIG_SCRIPT_NAME' => '/php-cgi/php-cgi',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'PHP_SELF' => '/index.php',
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REQUEST_TIME_FLOAT' => 1584532768.3087589740753173828125,
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'REQUEST_TIME' => 1584532768,
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'argv' => [],
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215:     'argc' => 0,
+[Wed Mar 18 14:59:28 2020] [error] [client 95.165.170.134:26949] AH01215: ]
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: An Error occurred while handling another error:
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: ParseError: syntax error, unexpected 'if' (T_IF) in /home/a/avtorpc/avtorpc.beget.tech/controllers/WebAuthController.php:58
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: Stack trace:
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: #0 [internal function]: yii\\BaseYii::autoload('app\\\\controllers...')
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/controllers/SiteController.php(13): spl_autoload_call('app\\\\controllers...')
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/BaseYii.php(293): include('/home/a/avtorpc...')
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: #3 [internal function]: yii\\BaseYii::autoload('app\\\\controllers...')
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: #4 [internal function]: spl_autoload_call('app\\\\controllers...')
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: #5 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Module.php(637): class_exists('app\\\\controllers...')
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: #6 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Module.php(596): yii\\base\\Module->createControllerByID('site')
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: #7 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Module.php(522): yii\\base\\Module->createController('error')
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: #8 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/ErrorHandler.php(109): yii\\base\\Module->runAction('site/error')
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: #9 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\\web\\ErrorHandler->renderException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: #10 [internal function]: yii\\base\\ErrorHandler->handleException(Object(yii\\web\\NotFoundHttpException))
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: #11 {main}
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: Previous exception:
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: yii\\web\\NotFoundHttpException: Page not found. in /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Request.php:287
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: Stack trace:
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: #0 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/web/Application.php(82): yii\\web\\Request->resolve()
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: #1 /home/a/avtorpc/avtorpc.beget.tech/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(yii\\web\\Request))
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: #2 /home/a/avtorpc/avtorpc.beget.tech/public_html/index.php(12): yii\\base\\Application->run()
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: #3 {main}
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: $_SERVER = [
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_REDIRECT_UNIQUE_ID' => 'XnIU-wVlnL0AAABOzdcAAAAI',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_REDIRECT_STATUS' => '200',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_UNIQUE_ID' => 'XnIU-wVlnL0AAABOzdcAAAAI',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_MMDB_INFO' => 'result found',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_GEOIP_REGION' => 'MOW',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_HANDLER' => 'php-cgi',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_STATUS' => '200',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'UNIQUE_ID' => 'XnIU-wVlnL0AAABOzdcAAAAI',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'MMDB_ADDR' => '95.165.170.134',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'GEOIP_ADDR' => '95.165.170.134',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'MMDB_INFO' => 'result found',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'GEOIP_CITY' => 'Moscow',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'GEOIP_LONGITUDE' => '37.61720',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'GEOIP_CONTINENT_CODE' => 'EU',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'GEOIP_LATITUDE' => '55.75270',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'GEOIP_POSTAL_CODE' => '109428',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'GEOIP_COUNTRY_CODE' => 'RU',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'GEOIP_COUNTRY_NAME' => 'Russia',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'GEOIP_REGION' => 'MOW',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'PERL_USE_UNSAFE_INC' => '1',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'PHPRC' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/cgi-bin/php.ini',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'HTTP_HOST' => 'avtorpc.beget.tech',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'HTTP_X_SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'HTTP_X_FORWARDED_PROTO' => 'http',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'HTTP_X_REAL_IP' => '95.165.170.134',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'HTTP_CACHE_CONTROL' => 'max-age=0',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'HTTP_COOKIE' => '_csrf=20976c85a59988f7cd33d5c0d44bba24554e08666673eeda077b2bafbd5ef0fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pRD9axPbNht4u_hJoYNhE3Fp9mMrEw_I%22%3B%7D; PHPSESSID=5331e7b36c226959baa0887d5f5b4e96',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Unix) Server at avtorpc.beget.tech Port 80</address>
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: ',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix)',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'SERVER_NAME' => 'avtorpc.beget.tech',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'SERVER_ADDR' => '5.101.152.189',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'SERVER_PORT' => '80',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REQUEST_SCHEME' => 'http',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REMOTE_ADDR' => '95.165.170.134',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'DOCUMENT_ROOT' => '/home/a/avtorpc/avtorpc.beget.tech/public_html',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'CONTEXT_PREFIX' => '/php-cgi',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'CONTEXT_DOCUMENT_ROOT' => '/usr/local/php-cgi/7.3/bin',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'SERVER_ADMIN' => 'webmaster@avtorpc.beget.tech',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'SCRIPT_FILENAME' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REMOTE_PORT' => '55113',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REDIRECT_URL' => '/index.php',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'GATEWAY_INTERFACE' => 'CGI/1.1',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'SERVER_PROTOCOL' => 'HTTP/1.1',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REQUEST_METHOD' => 'GET',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'QUERY_STRING' => '',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REQUEST_URI' => '/admin/index',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'SCRIPT_NAME' => '/index.php',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'ORIG_SCRIPT_FILENAME' => '/usr/local/php-cgi/7.3/bin/php-cgi',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'ORIG_PATH_INFO' => '/index.php',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'ORIG_PATH_TRANSLATED' => '/home/a/avtorpc/avtorpc.beget.tech/public_html/index.php',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'ORIG_SCRIPT_NAME' => '/php-cgi/php-cgi',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'PHP_SELF' => '/index.php',
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REQUEST_TIME_FLOAT' => 1584534783.5182778835296630859375,
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'REQUEST_TIME' => 1584534783,
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'argv' => [],
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215:     'argc' => 0,
+[Wed Mar 18 15:33:03 2020] [error] [client 95.165.170.134:55113] AH01215: ]
